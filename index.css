@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 80vh;
+    background-color: rgb(121, 154, 155); 
+    display: flex; 
+}
+
+#foto{
+    background-color: antiquewhite;
+    width: 50%;
+}
+
+#foto img{
+    height: 100%;
+    width: 100%;
+}
+
+#nombre_candidato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(38, 71, 133);
+    padding: 20px;
+}
+
+#nombre_candidato h1, #nombre_candidato h4{
+    margin: 15px;
+}
+
+#nombre_candidato h1{
+    font-size: 40px;
+}
+
+#nombre_candidato p{
+    margin-top: 40px;
+}
+
+#buttons_carrusel{
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#buttons_carrusel label{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(25, 39, 38);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#buttons_carrusel input{
+    display: none;
+}
+
+nav{
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+#about{
+    height: 100vh;
+    background-color: grey;
+}
+
+#content_about{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header_section{
+    height: 100px;
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_section{
+    font-size: 38px;
+    text-align: center;
+}
+
+#content_left, #content_right{
+    width: 25%;
+    height: 100%;
+    background-color: coral;
+}
+
+#content_center{
+    width: 40%;
+    height: 100%;
+    background-color: crimson;
+}
+
+#content_center img{
+    height: 65%;
+    width: 60%;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
