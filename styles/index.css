@@ -112,12 +112,26 @@ nav a{
     width: 40%;
     height: 100%;
     background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #content_center img{
-    height: 65%;
-    width: 60%;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
-    align-items: center;
-    justify-content: center;
+}
+
+#content_left h3, #content_left h4{
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+#content_right h3, #content_right h4{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
 }
